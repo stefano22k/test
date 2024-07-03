@@ -10,6 +10,7 @@
 
 <body>
     <h1 class="text-center p-3">Crud con PHP</h1>
+    <!-- Formulario para agregar usuarios -->
     <div class="container-fluid row">
         <form class="col-4 p-3">
             <h3 class="text-center text-secondary">Registro:</h3>
@@ -35,6 +36,37 @@
             </div>
             <button type="submit" class="btn btn-primary" name="btn-registrar" value="ok">Registrar</button>
         </form>
+        <!-- Columna de registros -->
+        <div class="col-8 p-4">
+            <table class="table">
+                <thead class="bg-info">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nombres</th>
+                        <th scope="col">Apellidos</th>
+                        <th scope="col">Dni</th>
+                        <th scope="col">Fecha de nacimiento</th>
+                        <th scope="col">Correo</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>
+                            <a href="">Editar</a>
+                            <a href="">Eliminar</a>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
     </div>
     <!-- script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
