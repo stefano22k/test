@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +14,10 @@
     <div class="container-fluid row">
         <form class="col-4 p-3" method="POST">
             <h3 class="text-center text-secondary">Registro:</h3>
+            <?php 
+                include "modelo/conexion.php";
+                include "controlador/registro_persona.php";
+            ?>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nombre:</label>
                 <input type="text" class="form-control" name="nombre">
