@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <h2>Holaaaa</h2>
     <h1 class="text-center p-3">Crud con PHP</h1>
     <!-- Formulario para agregar usuarios -->
     <div class="container-fluid row">
